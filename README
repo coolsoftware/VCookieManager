@@ -5,10 +5,10 @@ http://blog.coolsoftware.ru/
 
 Fix of TIdCookie.ParseServerCookie [Delphi XE2]. Read more info: http://blog.coolsoftware.ru/2016/08/delphi-xe2-indy-parse-cookie-bug.html
 
-Љласс TVCookieManager - это замена длЯ TIdCookieManager. Ћн позволЯет исправить ошибку в методе TIdCookie.ParseServerCookie.
-Џодробнее об этой ошибке можно прочитать тут: http://blog.coolsoftware.ru/2016/08/delphi-xe2-indy-parse-cookie-bug.html
+РљР»Р°СЃСЃ TVCookieManager - СЌС‚Рѕ Р·Р°РјРµРЅР° РґР»СЏ TIdCookieManager. РћРЅ РїРѕР·РІРѕР»СЏРµС‚ РёСЃРїСЂР°РІРёС‚СЊ РѕС€РёР±РєСѓ РІ РјРµС‚РѕРґРµ TIdCookie.ParseServerCookie.
+РџРѕРґСЂРѕР±РЅРµРµ РѕР± СЌС‚РѕР№ РѕС€РёР±РєРµ РјРѕР¶РЅРѕ РїСЂРѕС‡РёС‚Р°С‚СЊ С‚СѓС‚: http://blog.coolsoftware.ru/2016/08/delphi-xe2-indy-parse-cookie-bug.html
 
-Џример использованиЯ:
+РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ:
 
 var
   FixedCookieManager: TVCookieManager;
@@ -19,8 +19,8 @@ var
   IdHTTP := TIdHTTP.Create;
   IdHTTP.CookieManager := FixedCookieManager;
   
-‚ы можете использовать TVCookieManager в своих проектах без каких-либо ограничений.
-Џри публикации исходников ссылка на http://blog.coolsoftware.ru/ обЯзательна.
+Р’С‹ РјРѕР¶РµС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ TVCookieManager РІ СЃРІРѕРёС… РїСЂРѕРµРєС‚Р°С… Р±РµР· РєР°РєРёС…-Р»РёР±Рѕ РѕРіСЂР°РЅРёС‡РµРЅРёР№.
+РџСЂРё РїСѓР±Р»РёРєР°С†РёРё РёСЃС…РѕРґРЅРёРєРѕРІ СЃСЃС‹Р»РєР° РЅР° http://blog.coolsoftware.ru/ РѕР±СЏР·Р°С‚РµР»СЊРЅР°.
 
-‘вои отзывы/предложения можете присылать на vitaly@coolsoftware.ru
+РЎРІРѕРё РѕС‚Р·С‹РІС‹/РїСЂРµРґР»РѕР¶РµРЅРёВ¤ РјРѕР¶РµС‚Рµ РїСЂРёСЃС‹Р»Р°С‚СЊ РЅР° vitaly@coolsoftware.ru
 
