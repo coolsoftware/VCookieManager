@@ -16,6 +16,7 @@ var
   
   ...
   
+  FixedCookieManager := TVCookieManager.Create;
   IdHTTP := TIdHTTP.Create;
   IdHTTP.CookieManager := FixedCookieManager;
   
