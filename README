@@ -1,0 +1,26 @@
+VCookieManager
+
+Copyright 2016 Coolsoftware.
+http://blog.coolsoftware.ru/
+
+Fix of TIdCookie.ParseServerCookie [Delphi XE2]. Read more info: http://blog.coolsoftware.ru/2016/08/delphi-xe2-indy-parse-cookie-bug.html
+
+Класс TVCookieManager - это замена для TIdCookieManager. Он позволяет исправить ошибку в методе TIdCookie.ParseServerCookie.
+Подробнее об этой ошибке можно прочитать тут: http://blog.coolsoftware.ru/2016/08/delphi-xe2-indy-parse-cookie-bug.html
+
+Пример использования:
+
+var
+  FixedCookieManager: TVCookieManager;
+  IdHTTP: TIdHTTP;
+  
+  ...
+  
+  IdHTTP := TIdHTTP.Create;
+  IdHTTP.CookieManager := FixedCookieManager;
+  
+Вы можете использовать TVCookieManager в своих проектах без каких-либо ограничений.
+При публикации исходников ссылка на http://blog.coolsoftware.ru/ обязательна.
+
+Свои отзывы/предложени€ можете присылать на vitaly@coolsoftware.ru
+
